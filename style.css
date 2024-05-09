@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Orbitron:wght@400..900&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #e7eefb;
+    color: #2f2f2f;
+    font-family: "Obitron", sans-serif;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+#expression{
+    color: #2f2f2f;
+}
+#output{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px;
+    color: inherit;
+    gap: 50px;
+}
+section :first-child{
+    color: #abc270;
+}
+section :nth-child(2){
+    color: #473c33;
+}
+section :nth-child(3){
+    color: #fda769;
+}
+section :nth-child(19){
+    font-size: 23px;
+}
+.btn{
+    flex-basis: calc(25% - 10px);
+    margin: 5px;
+    font-size: 30px;
+    height: 68px;
+    font-family: "Obitron", sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #f4f4f8;
+    transition: all .3s ease;
+}
+.light,
+.light:focus{
+    background-color: #f4f4f4;
+}
+.light:hover{
+    background-color: #f1f1f1;
+}
+.blue,
+.blue:focus{
+    background-color: #abc270;
+}
+.blue:hover{
+    background-color: #b8cc86;
+}
+.dark,
+.dark:focus{
+    background-color: #473c33;
+}
+.dark:hover{
+    background-color: #5e5146;
+}
